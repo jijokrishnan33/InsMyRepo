@@ -20,4 +20,7 @@ var button = {
   session.send(JSON.stringify(button))
 })
 
+bot.use(new Bottr.FacebookMessengerClient())
+
 bot.listen()
+
